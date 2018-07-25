@@ -1,4 +1,4 @@
-package squaretest;
+package com.lessons.square;
 
 import static org.junit.Assert.*;
 

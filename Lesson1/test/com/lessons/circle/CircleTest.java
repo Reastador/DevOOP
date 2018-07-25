@@ -1,4 +1,4 @@
-package circletest;
+package com.lessons.circle;
 
 import static org.junit.Assert.*;
 

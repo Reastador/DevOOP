@@ -1,4 +1,4 @@
-package triangletest;
+package com.lessons.triangle;
 
 import static org.junit.Assert.*;
 
