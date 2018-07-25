@@ -1,4 +1,4 @@
-package test;
+package squaretest;
 
 import static org.junit.Assert.*;
 
@@ -11,9 +11,9 @@ public class SquareTest {
 	@Test
 	public void test() {
 		Square test = new Square();
-		test.setSide(5);
+		test.setSide(20);
 		int result = test.getArea();
-		assertEquals(25, result);
+		assertEquals( 400 , result );
 	}
 
 }

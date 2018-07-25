@@ -1,4 +1,4 @@
-package test;
+package triangletest;
 
 import static org.junit.Assert.*;
 
@@ -14,7 +14,7 @@ public class TriangleTest {
 		test.setHight(6);
 		test.setSideA(12);
 		int result = test.getArea();
-		assertEquals(36, result);
+		assertEquals( 36 , result );
 	}
 
 }

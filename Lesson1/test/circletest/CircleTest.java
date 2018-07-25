@@ -1,4 +1,4 @@
-package test;
+package circletest;
 
 import static org.junit.Assert.*;
 
@@ -13,7 +13,7 @@ public class CircleTest {
 		Circle test = new Circle();
 		test.setRadius(20);
 		int result = test.getArea();
-		assertEquals(1256, result);
+		assertEquals(1256 , result);
 	}
 
 }
