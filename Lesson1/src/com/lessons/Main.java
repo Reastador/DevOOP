@@ -1,7 +1,5 @@
 package com.lessons;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import com.lessons.circle.Circle;
@@ -10,7 +8,6 @@ import com.lessons.triangle.Triangle;
 
 
 public class Main {
-    static List <Shape> list = new ArrayList<Shape>();
 	private static Logger logger = Logger.getLogger(Main.class.getName());
 	public static void main(String[] args) {
     Circle circle1 = new Circle();
@@ -40,30 +37,7 @@ public class Main {
     logger.log(Level.INFO, "Triangle side a is "+ triangle1.getSideA()+ " Triangle hight is "+ triangle1.getHight() + " triangle area is " + triangle1.getArea());
     logger.info("Triangle side a is "+ triangle1.getSideA()+ " Triangle hight is "+ triangle1.getHight() + " triangle area is " + triangle1.getArea());
 	
-    list.add(circle1);
-    list.add(triangle1);
-    list.add(square1);
-    list.add(square2);
-    list.add(circle2);
-    //Collections.sort(list, (o1,o2)-> o2.getArea() - o1.getArea());
-    
-    int maxValue = list.get(0).getArea();
-    int minValue = list.get(0).getArea();
-    
-    for(int i = 0;i < list.size();i ++) {	
-    maxValue = Math.max(maxValue,list.get(i).getArea());
-    }
-    
-    for(int i = 0;i < list.size();i ++) {
-    minValue = Math.min(minValue,list.get(i).getArea());
-    }
-    
-    logger.log(Level.INFO, "max area in shape list is "+ maxValue+ " shape paremeter is ");
-    logger.info("max area in shape list is "+ maxValue+ " shape paremeter is ");
-    
-    logger.log(Level.INFO, "min area in shape list is "+ minValue+ " shape paremeter is ");
-    logger.info("min area in shape list is "+ minValue+ " shape paremeter is ");
-    
+   
     
 	}
 
