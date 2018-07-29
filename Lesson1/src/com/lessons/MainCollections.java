@@ -82,7 +82,7 @@ public class MainCollections {
     logger.log(Level.INFO, "min area in shape list is "+ minValue.getArea() 
     + " shape name is " + minValue.getClass().getSimpleName());
     
-    // and that is variant with Collections.sort
+    // and this is variant with Collections.sort
     Collections.sort(list, (o1,o2)-> o1.getArea() - o2.getArea());
     Shape maxValue2 = list.get(list.size()-1);
     Shape minValue2 = list.get(0);
