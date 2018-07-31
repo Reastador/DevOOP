@@ -12,8 +12,8 @@ import com.lessons.triangle.Triangle;
 
 public class MainCollections {
 	private static Logger logger = Logger.getLogger(Main.class.getName());
-    static List <Shape> list = new ArrayList<Shape>();
 	public static void main(String[] args) {
+    List <Shape> list = new ArrayList<Shape>();
     Circle circle1 = new Circle();
     circle1.setRadius(20);
     Circle circle2 = new Circle();
